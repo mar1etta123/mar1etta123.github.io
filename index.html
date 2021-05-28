@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello world :D</title>
+
+  <link rel="stylesheet" href="assets/style.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mate SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+    html {
+      font-family: 'Mate SC', sans-serif;
+      font-family: 'Dancing Script', sans-serif;
+      font-family: 'Overpass', sans-serif;
+    }
+
+
+    .text-shadow {
+      text-shadow: 0px 0px 7px black;
+    }
+
+    main {
+      background-image: url('/assets/img/bg.webp');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
 </head>
-<body>
-  <h1>γειά μαριέττα! σου την χάκεψα τη σελίδα</h1>
-  <p>one change</p>
+
+<body class="flex flex-col h-screen">
+  <!-- <header class="text-lg p-4 bg-white text-center">
+    <div class="max-w-md">
+      <a href="https://cook-eat.gr">
+        <i>cook-eat.gr</i>
+      </a>
+    </div>
+  </header> -->
+
+  <main class="flex-1 flex items-center justify-center">
+    <div class="text-white text-center tracking-widest text-shadow">
+      <div class="mb-2">
+        <div class="text-8xl tracking-wide text-shadow mb-2">COOK-EAT.GR</div>
+        <div class="text-3xl"> THE ART OF FOOD</div>
+      </div>
+
+      <div class="border-2 mx-auto whitespace-nowrap text-lg py-2 text-shadow max-w-sm">
+        COMING SOON</div>
+    </div>
+
+  </main>
+
 </body>
+
 </html>
